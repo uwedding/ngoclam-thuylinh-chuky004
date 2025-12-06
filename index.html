@@ -1781,11 +1781,15 @@
             #HEADLINE8,
             #IMAGE16,
             #IMAGE29,
+            #IMAGE291,
             #BOX5,
+            #BOX51,
             #BOX6,
             #IMAGE31,
             #BOX17,
+            #BOX171,
             #BOX18,
+            #BOX181,
             #BOX19,
             #BOX20,
             #BOX21,
@@ -1825,11 +1829,15 @@
             #HEADLINE8,
             #IMAGE16,
             #IMAGE29,
+            #IMAGE291,
             #BOX5,
+            #BOX51,
             #BOX6,
             #IMAGE31,
             #BOX17,
+            #BOX171,
             #BOX18,
+            #BOX181,
             #BOX19,
             #BOX20,
             #BOX21,
@@ -1897,6 +1905,7 @@
 
         #BOX8>.ladi-box,
         #BOX5>.ladi-box,
+        #BOX51>.ladi-box,
         #BOX6>.ladi-box,
         #BOX12>.ladi-box {
             border-radius: 0px;
@@ -1908,7 +1917,9 @@
         #BOX19>.ladi-box,
         #BOX20>.ladi-box,
         #BOX18>.ladi-box,
+        #BOX181>.ladi-box,
         #BOX17>.ladi-box,
+        #BOX171>.ladi-box,
         #BOX25>.ladi-box {
             background-color: rgba(241, 243, 244, 0);
         }
@@ -1926,6 +1937,7 @@
         #BOX3>.ladi-box:hover,
         #BOX4>.ladi-box:hover,
         #BOX5>.ladi-box:hover,
+        #BOX51>.ladi-box:hover,
         #BOX6>.ladi-box:hover,
         #BOX25>.ladi-box:hover,
         #BOX7>.ladi-box:hover,
@@ -1953,6 +1965,7 @@
         #HEADLINE7.ladi-animation>.ladi-headline,
         #IMAGE5.ladi-animation>.ladi-image,
         #IMAGE29.ladi-animation>.ladi-image,
+        #IMAGE291.ladi-animation>.ladi-image,
         #BOX6.ladi-animation>.ladi-box {
             animation-name: bounceInLeft;
             animation-delay: 1s;
@@ -1963,6 +1976,7 @@
         #HEADLINE4.ladi-animation>.ladi-headline,
         #HEADLINE8.ladi-animation>.ladi-headline,
         #BOX5.ladi-animation>.ladi-box,
+        #BOX51.ladi-animation>.ladi-box,
         #IMAGE31.ladi-animation>.ladi-image {
             animation-name: bounceInRight;
             animation-delay: 1s;
@@ -2057,9 +2071,12 @@
         #BOX19,
         #BOX20,
         #BOX18,
+        #BOX181,
         #BOX17,
+        #BOX171,
         #IMAGE24>.ladi-image>.ladi-image-background,
         #IMAGE29>.ladi-image>.ladi-image-background,
+        #IMAGE291>.ladi-image>.ladi-image-background,
         #IMAGE31>.ladi-image>.ladi-image-background,
         #IMAGE61,
         #IMAGE61>.ladi-image>.ladi-image-background,
@@ -2347,6 +2364,7 @@
 
         #IMAGE5>.ladi-image,
         #BOX5>.ladi-box,
+        #BOX51>.ladi-box,
         #BOX6>.ladi-box {
             box-shadow: rgb(0, 0, 0) 0px 5px 30px 0px;
         }
@@ -2390,7 +2408,9 @@
         #BOX19>.ladi-box,
         #BOX20>.ladi-box,
         #BOX18>.ladi-box,
-        #BOX17>.ladi-box {
+        #BOX181>.ladi-box,
+        #BOX17>.ladi-box,
+        #BOX171>.ladi-box {
             border-width: 2px;
             border-radius: 0px;
             border-style: dashed;
@@ -2398,12 +2418,14 @@
         }
 
         #BOX19>.ladi-box,
-        #BOX18>.ladi-box {
+        #BOX18>.ladi-box,
+        #BOX181>.ladi-box {
             transform: rotate(5deg);
         }
 
         #BOX19.ladi-animation>.ladi-box,
-        #BOX18.ladi-animation>.ladi-box {
+        #BOX18.ladi-animation>.ladi-box,
+        #BOX181.ladi-animation>.ladi-box {
             animation-name: rotateIn;
             animation-delay: 1s;
             animation-duration: 6s;
@@ -2413,7 +2435,9 @@
         #BOX19>.ladi-box:hover,
         #BOX20>.ladi-box:hover,
         #BOX18>.ladi-box:hover,
+        #BOX181>.ladi-box:hover,
         #BOX17>.ladi-box:hover,
+        #BOX171>.ladi-box:hover,
         #BOX21>.ladi-box:hover,
         #BOX22>.ladi-box:hover {
             transform: rotate(0deg);
@@ -2421,12 +2445,14 @@
         }
 
         #BOX20>.ladi-box,
-        #BOX17>.ladi-box {
+        #BOX17>.ladi-box,
+        #BOX171>.ladi-box {
             transform: rotate(10deg);
         }
 
         #BOX20.ladi-animation>.ladi-box,
         #BOX17.ladi-animation>.ladi-box,
+        #BOX171.ladi-animation>.ladi-box,
         #BOX22.ladi-animation>.ladi-box {
             animation-name: rotateIn;
             animation-delay: 1s;
@@ -2463,11 +2489,13 @@
         }
 
         #BOX5>.ladi-box,
+        #BOX51>.ladi-box,
         #BOX6>.ladi-box {
             background-color: rgb(251, 224, 224);
         }
 
         #IMAGE29>.ladi-image,
+        #IMAGE291>.ladi-image,
         #IMAGE31>.ladi-image {
             border-width: 2px;
             border-style: dashed;
@@ -2475,6 +2503,7 @@
         }
 
         #PARAGRAPH11>.ladi-paragraph,
+        #PARAGRAPH111>.ladi-paragraph,
         #PARAGRAPH13>.ladi-paragraph {
             font-family: Sriracha, cursive;
             font-weight: bold;
@@ -2484,6 +2513,7 @@
         }
 
         #PARAGRAPH12>.ladi-paragraph,
+        #PARAGRAPH121>.ladi-paragraph,
         #PARAGRAPH14>.ladi-paragraph {
             font-style: italic;
             line-height: 1.6;
@@ -3582,15 +3612,18 @@
             }
 
             #SECTION5 {
-                height: 2144.8px;
+                height: 2644.8px;
             }
 
             #GROUP40,
             #BOX19,
             #BOX20,
             #GROUP39,
+            #GROUP391,
             #BOX18,
-            #BOX17 {
+            #BOX181,
+            #BOX17,
+            #BOX171 {
                 width: 959.819px;
                 height: 388px;
             }
@@ -3603,6 +3636,12 @@
             #GROUP39 {
                 top: 1143.58px;
                 left: 0.0905px;
+            }
+
+            #GROUP391 {
+                top: 2143.58px;
+                left: 0.0905px;
+                z-index: -1;
             }
 
             #IMAGE24 {
@@ -3621,6 +3660,7 @@
             }
 
             #BOX5,
+            #BOX51,
             #BOX6 {
                 width: 530px;
                 height: 386px;
@@ -3631,8 +3671,15 @@
                 left: 42.851px;
             }
 
+            #BOX51 {
+                top: 2143.58px;
+                left: 42.851px;
+            }
+
             #IMAGE29,
             #IMAGE29>.ladi-image>.ladi-image-background,
+            #IMAGE291,
+            #IMAGE291>.ladi-image>.ladi-image-background,
             #IMAGE31,
             #IMAGE31>.ladi-image>.ladi-image-background {
                 width: 344.298px;
@@ -3644,8 +3691,19 @@
                 left: 572.851px;
             }
 
+            #IMAGE291 {
+                top: 2078.36px;
+                left: 572.851px;
+                z-index: 11;
+            }
+
             #IMAGE29>.ladi-image>.ladi-image-background {
                 background-image: url("./images/11.jpg");
+            }
+
+            #IMAGE291>.ladi-image>.ladi-image-background {
+                background-image: url("./images/19.jpg");
+                background-position: -20px;
             }
 
             #BOX6 {
@@ -3663,6 +3721,7 @@
             }
 
             #PARAGRAPH11,
+            #PARAGRAPH111,
             #PARAGRAPH13,
             #PARAGRAPH23,
             #PARAGRAPH25 {
@@ -3674,7 +3733,13 @@
                 left: 109.851px;
             }
 
+            #PARAGRAPH111 {
+                top: 2247.43px;
+                left: 109.851px;
+            }
+
             #PARAGRAPH11>.ladi-paragraph,
+            #PARAGRAPH111>.ladi-paragraph,
             #PARAGRAPH13>.ladi-paragraph,
             #PARAGRAPH23>.ladi-paragraph,
             #PARAGRAPH25>.ladi-paragraph {
@@ -3682,6 +3747,7 @@
             }
 
             #PARAGRAPH12,
+            #PARAGRAPH121,
             #PARAGRAPH14 {
                 width: 384px;
             }
@@ -3691,7 +3757,13 @@
                 left: 112.851px;
             }
 
+            #PARAGRAPH121 {
+                top: 2292.73px;
+                left: 112.851px;
+            }
+
             #PARAGRAPH12>.ladi-paragraph,
+            #PARAGRAPH121>.ladi-paragraph,
             #PARAGRAPH14>.ladi-paragraph {
                 font-size: 16px;
                 text-align: center;
@@ -4925,15 +4997,18 @@
             }
 
             #SECTION5 {
-                height: 1790.78px;
+                height: 2340.78px;
             }
 
             #GROUP40,
             #BOX19,
             #BOX20,
             #GROUP39,
+            #GROUP391,
             #BOX18,
-            #BOX17 {
+            #BOX181,
+            #BOX17,
+            #BOX171 {
                 width: 244.719px;
                 height: 192px;
             }
@@ -4946,6 +5021,12 @@
             #GROUP39 {
                 top: 803.554px;
                 left: 77.0006px;
+            }
+
+            #GROUP391 {
+                top: 1883.554px;
+                left: 77.0006px;
+                z-index: -1;
             }
 
             #IMAGE24 {
@@ -4965,8 +5046,17 @@
                 left: 16.0006px;
             }
 
+            #BOX51 {
+                width: 376px;
+                height: 312px;
+                top: 1985.28px;
+                left: 16.0006px;
+            }
+
             #IMAGE29,
             #IMAGE29>.ladi-image>.ladi-image-background,
+            #IMAGE291>.ladi-image>.ladi-image-background,
+            #IMAGE291,
             #IMAGE31,
             #IMAGE31>.ladi-image>.ladi-image-background {
                 width: 225.631px;
@@ -4978,8 +5068,18 @@
                 left: 178.369px;
             }
 
+            #IMAGE291 {
+                top: 1778.833px;
+                left: 178.369px;
+                z-index: 1;
+            }
+
             #IMAGE29>.ladi-image>.ladi-image-background {
                 background-image: url("./images/11.jpg");
+            }
+
+            #IMAGE291>.ladi-image>.ladi-image-background {
+                background-image: url("./images/19.jpg");
             }
 
             #BOX6 {
@@ -5004,7 +5104,14 @@
                 left: 36.0006px;
             }
 
+            #PARAGRAPH111 {
+                width: 127px;
+                top: 2024.83px;
+                left: 36.0006px;
+            }
+
             #PARAGRAPH11>.ladi-paragraph,
+            #PARAGRAPH111>.ladi-paragraph,
             #PARAGRAPH13>.ladi-paragraph,
             #PARAGRAPH23>.ladi-paragraph,
             #PARAGRAPH25>.ladi-paragraph,
@@ -5013,6 +5120,7 @@
             }
 
             #PARAGRAPH12,
+            #PARAGRAPH121,
             #PARAGRAPH14 {
                 width: 348px;
             }
@@ -5022,7 +5130,14 @@
                 left: 30.0006px;
             }
 
+
+            #PARAGRAPH121 {
+                top: 2128.53px;
+                left: 30.0006px;
+            }
+
             #PARAGRAPH12>.ladi-paragraph,
+            #PARAGRAPH121>.ladi-paragraph,
             #PARAGRAPH14>.ladi-paragraph {
                 font-size: 14px;
                 text-align: justify;
@@ -6238,6 +6353,36 @@ var message="NoRightClicking"; function defeatIE() {if (document.all) {(message)
                         muốn hướng đến một mái ấm. Thế nên chúng mình đã quyết định ra mắt bố mẹ hai bên và xin phép bố
                         mẹ được kết hôn.</div>
                 </div>
+                <!-- Clone -->
+                <div id="IMAGE291" class='ladi-element'>
+                    <div class='ladi-image'>
+                        <div class="ladi-image-background"></div>
+                    </div>
+                </div>
+                <div id="BOX51" class="ladi-element ladi-animation">
+                    <div class="ladi-box ladi-transition"></div>
+                </div>
+                <div id="PARAGRAPH111" class="ladi-element">
+                    <div class="ladi-paragraph">MÓN QUÀ TÌNH YÊU - TRẦN NGỌC HÂN</div>
+                </div>
+                <div id="PARAGRAPH121" class="ladi-element">
+                    <div class="ladi-paragraph">Sau những ngày yêu thương và cố gắng cùng nhau, món quà lớn nhất mà tụi
+                        mình nhận được chính là sự xuất hiện của con. Từ khi biết con đến bên, mọi kế hoạch, mọi nỗ lực
+                        đều trở nên có ý nghĩa hơn. Con là trái ngọt đầu đời của tụi mình, là niềm hạnh phúc khiến cả
+                        hai càng thêm trân trọng gia đình nhỏ này.</div>
+                </div>
+                <div id="GROUP391" class="ladi-element">
+                    <div class="ladi-group">
+                        <div id="BOX181" class="ladi-element ladi-animation">
+                            <div class="ladi-box ladi-transition"></div>
+                        </div>
+                        <div id="BOX171" class="ladi-element ladi-animation">
+                            <div class="ladi-box ladi-transition"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- EndClone -->
+
                 <div id="GROUP49" class='ladi-element'>
                     <div class='ladi-group'>
                         <div id="GROUP50" class='ladi-element'>
@@ -6322,7 +6467,7 @@ var message="NoRightClicking"; function defeatIE() {if (document.all) {(message)
                             </div>
                         </div>
                         <div id="HEADLINE521" class='ladi-element'>
-                            <h3 class='ladi-headline'>09:00</h3>
+                            <h3 class='ladi-headline'>09:30</h3>
                         </div>
                         <div id="HEADLINE48" class='ladi-element'>
                             <h3 class='ladi-headline'>TIỆC CƯỚI NHÀ TRAI</h3>
@@ -7942,7 +8087,7 @@ var message="NoRightClicking"; function defeatIE() {if (document.all) {(message)
     <script src="./ladipagev4.min.js" type="text/javascript"></script>
     <script src="./index.js" type="text/javascript"></script>
     <script id="script_event_data"
-        type="application/json">{"BOX101": {"a":"box","F":"fadeInDown","C":"1s"},"IMAGE123":{"a":"image","F":"bounceIn","C":"1s"},"HEADLINE233":{"a":"headline","F":"bounceIn","C":"1s"},"HEADLINE234":{"a":"headline","F":"bounceIn","C":"1s"},"HEADLINE235":{"a":"headline","F":"bounceIn","C":"1s"},"HTML_CODE11":{"a":"html_code","F":"fadeInDown","C":"1s"},"BUTTON42":{"a":"button","cs":[{"dr":"action","dw":"GROUP174","a":"collapse"}],"F":"pulse","C":"0s"},"BUTTON43":{"a":"button","cs":[{"event_custom_script":"clearCanvas()","dr":"action","a":"custom_script"}]},"BUTTON44":{"a":"button","cs":[{"event_custom_script":"previewSignature(sizeSignature)\n$(&#34;.Signature_BTN_luu&#34;).show()","dr":"action","a":"custom_script"}]},"BUTTON45":{"a":"button","cs":[{"event_custom_script":"saveSignature(defaultIdUser,defaultUserTag, sizeImageSignature)\n$(&#34;.Signature_BTN_luu&#34;).hide()","dr":"action","a":"custom_script"}]},"BOX103":{"a":"box","F":"fadeInDown","C":"1s"},"PARAGRAPH124":{"a":"paragraph","F":"bounceInUp","C":"1s"},"PARAGRAPH125":{"a":"paragraph","F":"bounceInRight","C":"1s"},"PARAGRAPH126":{"a":"paragraph","F":"fadeInDown","C":"1.3s"},"HEADLINE3":{"a":"headline","F":"bounceInLeft","C":"1s"},"HEADLINE4":{"a":"headline","F":"bounceInRight","C":"1s"},"IMAGE4":{"a":"image","F":"bounceInLeft","C":"1s"},"IMAGE5":{"a":"image","F":"bounceInLeft","C":"1s"},"HEADLINE5":{"a":"headline","F":"tada","C":"0s"},"IMAGE6":{"a":"image","F":"bounceIn","C":"1s"},"IMAGE7":{"a":"image","F":"wobble","C":"1s"},"IMAGE8":{"a":"image","F":"wobble","C":"1s"},"IMAGE9":{"a":"image","F":"bounceIn","C":"1s"},"HEADLINE7":{"a":"headline","F":"bounceInLeft","C":"1s"},"IMAGE11":{"a":"image","F":"tada","C":"0s"},"HEADLINE8":{"a":"headline","F":"bounceInRight","C":"1s"},"IMAGE16":{"a":"image","F":"pulse","C":"0s"},"IMAGE29":{"a":"image","F":"bounceInLeft","C":"1s"},"BOX5":{"a":"box","F":"bounceInRight","C":"1s"},"BOX6":{"a":"box","F":"bounceInLeft","C":"1s"},"IMAGE31":{"a":"image","F":"bounceInRight","C":"1s"},"POPUP2":{"a":"popup","X":"default","U":"background-color: rgba(0, 0, 0, 0.5);"},"IMAGE41":{"a":"image","cs":[{"dr":"action","dw":"POPUP3","a":"popup"}]},"POPUP3":{"a":"popup","X":"default","U":"background-color: rgba(0, 0, 0, 0.5);"},"POPUP4":{"a":"popup","X":"default","U":"background-color: rgba(0, 0, 0, 0.5);"},"IMAGE45":{"a":"image","cs":[{"dr":"action","dw":"POPUP4","a":"popup"}]},"COUNTDOWN2":{"a":"countdown","bX":"endtime","bT":1766896200000},"COUNTDOWN_ITEM5":{"a":"countdown_item","bY":"day"},"COUNTDOWN_ITEM6":{"a":"countdown_item","bY":"hour"},"COUNTDOWN_ITEM7":{"a":"countdown_item","bY":"minute"},"COUNTDOWN_ITEM8":{"a":"countdown_item","bY":"seconds"},"BOX17":{"a":"box","F":"rotateIn","C":"1s"},"BOX18":{"a":"box","F":"rotateIn","C":"1s"},"BOX19":{"a":"box","F":"rotateIn","C":"1s"},"BOX20":{"a":"box","F":"rotateIn","C":"1s"},"BOX21":{"a":"box","F":"rotateIn","C":"1s"},"BOX22":{"a":"box","F":"rotateIn","C":"1s"},"GROUP41":{"a":"group","aD":true,"aA":"bottom_left","aw":"0px","at":"5px","aq":"5px","an":"0px"},"FORM_ITEM7":{"a":"form_item","bS":"text","bQ":1},"FORM_ITEM8":{"a":"form_item","bS":"textarea","bQ":6},"FORM_ITEM9":{"a":"form_item","bS":"select","bQ":2},"FORM_ITEM10":{"a":"form_item","bS":"checkbox","bQ":3},"FORM_ITEM11":{"a":"form_item","bS":"select","bQ":5},"FORM_ITEM12":{"a":"form_item","bS":"checkbox","bQ":4},"FORM3":{"option.dynamic_form_config":"&#123;&#34;configs&#34;:[],&#34;default_actions&#34;:[&#123;&#34;id_open_popup&#34;:&#34;POPUP2&#34;,&#34;type&#34;:&#34;form_open_popup&#34;,&#34;no_delete&#34;:true&#125;]&#125;","a":"form","bP":"663edb65c9c5120012ef6f25","bM":true,"bA":true,"by":true,"bx":true},"IMAGE57":{"a":"image","F":"shake","C":"0s"},"IMAGE58":{"a":"image","F":"bounceIn","C":"1s"},"IMAGE59":{"a":"image","F":"shake","C":"0s"},"SHAPE19":{"a":"shape","F":"shake","C":"0s"},"SHAPE20":{"a":"shape","F":"swing","C":"0s"},"SHAPE21":{"a":"shape","F":"pulse","C":"0s"},"SHAPE22":{"a":"shape","F":"pulse","C":"0s"},"GROUP47":{"a":"group","D":"swing","A":"0s"},"IMAGE61":{"a":"image","F":"bounceIn","C":"1s"},"IMAGE62":{"a":"image","F":"bounceIn","C":"1s"},"IMAGE63":{"a":"image","F":"bounceIn","C":"1s"},"IMAGE64":{"a":"image","F":"bounceIn","C":"1s"},"IMAGE66":{"a":"image","F":"bounceInUp","C":"1s"},"IMAGE67":{"a":"image","F":"bounceIn","C":"1s"},"GROUP53":{"a":"group","D":"bounceIn","A":"1s"},"HEADLINE51":{"a":"headline","F":"shake","C":"0s"},"GROUP55":{"a":"group","D":"bounceIn","A":"1s"},"GROUP56":{"a":"group","D":"bounceIn","A":"1s"},"GROUP57":{"a":"group","D":"bounceIn","A":"1s"},"GROUP58":{"a":"group","D":"bounceIn","A":"1s"},"GROUP59":{"a":"group","D":"bounceIn","A":"1s"}}</script>
+        type="application/json">{"BOX101": {"a":"box","F":"fadeInDown","C":"1s"},"IMAGE123":{"a":"image","F":"bounceIn","C":"1s"},"HEADLINE233":{"a":"headline","F":"bounceIn","C":"1s"},"HEADLINE234":{"a":"headline","F":"bounceIn","C":"1s"},"HEADLINE235":{"a":"headline","F":"bounceIn","C":"1s"},"HTML_CODE11":{"a":"html_code","F":"fadeInDown","C":"1s"},"BUTTON42":{"a":"button","cs":[{"dr":"action","dw":"GROUP174","a":"collapse"}],"F":"pulse","C":"0s"},"BUTTON43":{"a":"button","cs":[{"event_custom_script":"clearCanvas()","dr":"action","a":"custom_script"}]},"BUTTON44":{"a":"button","cs":[{"event_custom_script":"previewSignature(sizeSignature)\n$(&#34;.Signature_BTN_luu&#34;).show()","dr":"action","a":"custom_script"}]},"BUTTON45":{"a":"button","cs":[{"event_custom_script":"saveSignature(defaultIdUser,defaultUserTag, sizeImageSignature)\n$(&#34;.Signature_BTN_luu&#34;).hide()","dr":"action","a":"custom_script"}]},"BOX103":{"a":"box","F":"fadeInDown","C":"1s"},"PARAGRAPH124":{"a":"paragraph","F":"bounceInUp","C":"1s"},"PARAGRAPH125":{"a":"paragraph","F":"bounceInRight","C":"1s"},"PARAGRAPH126":{"a":"paragraph","F":"fadeInDown","C":"1.3s"},"HEADLINE3":{"a":"headline","F":"bounceInLeft","C":"1s"},"HEADLINE4":{"a":"headline","F":"bounceInRight","C":"1s"},"IMAGE4":{"a":"image","F":"bounceInLeft","C":"1s"},"IMAGE5":{"a":"image","F":"bounceInLeft","C":"1s"},"HEADLINE5":{"a":"headline","F":"tada","C":"0s"},"IMAGE6":{"a":"image","F":"bounceIn","C":"1s"},"IMAGE7":{"a":"image","F":"wobble","C":"1s"},"IMAGE8":{"a":"image","F":"wobble","C":"1s"},"IMAGE9":{"a":"image","F":"bounceIn","C":"1s"},"HEADLINE7":{"a":"headline","F":"bounceInLeft","C":"1s"},"IMAGE11":{"a":"image","F":"tada","C":"0s"},"HEADLINE8":{"a":"headline","F":"bounceInRight","C":"1s"},"IMAGE16":{"a":"image","F":"pulse","C":"0s"},"IMAGE291":{"a":"image","F":"bounceInLeft","C":"1s"},"IMAGE29":{"a":"image","F":"bounceInLeft","C":"1s"},"BOX51":{"a":"box","F":"bounceInRight","C":"1s"},"BOX5":{"a":"box","F":"bounceInRight","C":"1s"},"BOX6":{"a":"box","F":"bounceInLeft","C":"1s"},"IMAGE31":{"a":"image","F":"bounceInRight","C":"1s"},"POPUP2":{"a":"popup","X":"default","U":"background-color: rgba(0, 0, 0, 0.5);"},"IMAGE41":{"a":"image","cs":[{"dr":"action","dw":"POPUP3","a":"popup"}]},"POPUP3":{"a":"popup","X":"default","U":"background-color: rgba(0, 0, 0, 0.5);"},"POPUP4":{"a":"popup","X":"default","U":"background-color: rgba(0, 0, 0, 0.5);"},"IMAGE45":{"a":"image","cs":[{"dr":"action","dw":"POPUP4","a":"popup"}]},"COUNTDOWN2":{"a":"countdown","bX":"endtime","bT":1766896200000},"COUNTDOWN_ITEM5":{"a":"countdown_item","bY":"day"},"COUNTDOWN_ITEM6":{"a":"countdown_item","bY":"hour"},"COUNTDOWN_ITEM7":{"a":"countdown_item","bY":"minute"},"COUNTDOWN_ITEM8":{"a":"countdown_item","bY":"seconds"},"BOX171":{"a":"box","F":"rotateIn","C":"1s"},"BOX17":{"a":"box","F":"rotateIn","C":"1s"},"BOX181":{"a":"box","F":"rotateIn","C":"1s"},"BOX18":{"a":"box","F":"rotateIn","C":"1s"},"BOX19":{"a":"box","F":"rotateIn","C":"1s"},"BOX20":{"a":"box","F":"rotateIn","C":"1s"},"BOX21":{"a":"box","F":"rotateIn","C":"1s"},"BOX22":{"a":"box","F":"rotateIn","C":"1s"},"GROUP41":{"a":"group","aD":true,"aA":"bottom_left","aw":"0px","at":"5px","aq":"5px","an":"0px"},"FORM_ITEM7":{"a":"form_item","bS":"text","bQ":1},"FORM_ITEM8":{"a":"form_item","bS":"textarea","bQ":6},"FORM_ITEM9":{"a":"form_item","bS":"select","bQ":2},"FORM_ITEM10":{"a":"form_item","bS":"checkbox","bQ":3},"FORM_ITEM11":{"a":"form_item","bS":"select","bQ":5},"FORM_ITEM12":{"a":"form_item","bS":"checkbox","bQ":4},"FORM3":{"option.dynamic_form_config":"&#123;&#34;configs&#34;:[],&#34;default_actions&#34;:[&#123;&#34;id_open_popup&#34;:&#34;POPUP2&#34;,&#34;type&#34;:&#34;form_open_popup&#34;,&#34;no_delete&#34;:true&#125;]&#125;","a":"form","bP":"663edb65c9c5120012ef6f25","bM":true,"bA":true,"by":true,"bx":true},"IMAGE57":{"a":"image","F":"shake","C":"0s"},"IMAGE58":{"a":"image","F":"bounceIn","C":"1s"},"IMAGE59":{"a":"image","F":"shake","C":"0s"},"SHAPE19":{"a":"shape","F":"shake","C":"0s"},"SHAPE20":{"a":"shape","F":"swing","C":"0s"},"SHAPE21":{"a":"shape","F":"pulse","C":"0s"},"SHAPE22":{"a":"shape","F":"pulse","C":"0s"},"GROUP47":{"a":"group","D":"swing","A":"0s"},"IMAGE61":{"a":"image","F":"bounceIn","C":"1s"},"IMAGE62":{"a":"image","F":"bounceIn","C":"1s"},"IMAGE63":{"a":"image","F":"bounceIn","C":"1s"},"IMAGE64":{"a":"image","F":"bounceIn","C":"1s"},"IMAGE66":{"a":"image","F":"bounceInUp","C":"1s"},"IMAGE67":{"a":"image","F":"bounceIn","C":"1s"},"GROUP53":{"a":"group","D":"bounceIn","A":"1s"},"HEADLINE51":{"a":"headline","F":"shake","C":"0s"},"GROUP55":{"a":"group","D":"bounceIn","A":"1s"},"GROUP56":{"a":"group","D":"bounceIn","A":"1s"},"GROUP57":{"a":"group","D":"bounceIn","A":"1s"},"GROUP58":{"a":"group","D":"bounceIn","A":"1s"},"GROUP59":{"a":"group","D":"bounceIn","A":"1s"}}</script>
     <script id="script_ladipage_run"
         type="text/javascript">(function () { var run = function () { if (typeof window.LadiPageScript == "undefined" || typeof window.ladi == "undefined" || window.ladi == undefined) { setTimeout(run, 100); return; } window.LadiPageApp = window.LadiPageApp || new window.LadiPageAppV2(); window.LadiPageScript.runtime.ladipage_id = '65b0efa3018a1b00117e471d'; window.LadiPageScript.runtime.publish_platform = 'LADIPAGEDNS'; window.LadiPageScript.runtime.version = '1766896200000'; window.LadiPageScript.runtime.cdn_url = 'https://w.ladicdn.com/v4/source/'; window.LadiPageScript.runtime.DOMAIN_SET_COOKIE = ["uwedding.online"]; window.LadiPageScript.runtime.DOMAIN_FREE = ["preview.ldpdemo.com", "ldp.page"]; window.LadiPageScript.runtime.bodyFontSize = 12; window.LadiPageScript.runtime.store_id = ""; window.LadiPageScript.runtime.time_zone = 7; window.LadiPageScript.runtime.currency = "VND"; window.LadiPageScript.runtime.tracking_page = "@@tracking_page"; window.LadiPageScript.runtime.convert_replace_str = true; window.LadiPageScript.runtime.desktop_width = 960; window.LadiPageScript.runtime.mobile_width = 420; window.LadiPageScript.runtime.formdata = true; window.LadiPageScript.runtime.tracking_button_click = true; window.LadiPageScript.runtime.publish_time = 1766896200000; window.LadiPageScript.runtime.lang = "vi"; window.LadiPageScript.run(true); window.LadiPageScript.runEventScroll(); }; run(); })();</script>
     <script src="./createName.js"></script>
