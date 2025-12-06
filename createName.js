@@ -63,7 +63,7 @@ function CreateNameV2(Name, style) {
 function CreateNameV3(name, classAdd, styleName, styleWrapName) {
   var urlString = window.location.href;
   var url = new URL(urlString);
-  var nameValue = url.searchParams.get("n");
+  var nameValue = url.searchParams.get("n") || url.searchParams.get("name");
   const newName = String(nameValue);
 
   // let classAdd = ".class_tenKhachMoi"
