@@ -1,7 +1,7 @@
 function CreateName(Name) {
   var urlString = window.location.href;
   var url = new URL(urlString);
-  var nameValue = url.searchParams.get("name");
+  var nameValue = url.searchParams.get("name") || url.searchParams.get("n");
   const newName = String(nameValue);
 
   if (nameValue !== null) {
@@ -35,27 +35,27 @@ function CreateNameV2(Name, style) {
       let str = str.replace(/%20/g, " ");
       $(".class_tenKhachMoi").html(
         '<div class="ladi-paragraph ladi-transition"><span style="' +
-          style +
-          '">' +
-          str +
-          "</span></div>"
+        style +
+        '">' +
+        str +
+        "</span></div>"
       );
     } else {
       $(".class_tenKhachMoi").html(
         '<div class="ladi-paragraph ladi-transition"  ><span style="' +
-          style +
-          '">' +
-          str +
-          "</span></div>"
+        style +
+        '">' +
+        str +
+        "</span></div>"
       );
     }
   } else {
     $(".class_tenKhachMoi").html(
       '<div class="ladi-paragraph ladi-transition"  ><span style="' +
-        style +
-        '">' +
-        Name +
-        "</span></div>"
+      style +
+      '">' +
+      Name +
+      "</span></div>"
     );
   }
 }
